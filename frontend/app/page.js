@@ -10,7 +10,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   const cancelButtonRef = useRef(null);
   const [time, settime] = useState(-1);
-  const [meditate, setmeditate] = useState(1);
+  const [meditate, setmeditate] = useState(0);
 
   function handleOnClick() {
     setOpen(true);
